@@ -27,7 +27,7 @@ const navbar = () => {
                     <div className="flex gap-3 mt-4">
                         <Link href="/create-prompt" className="black_btn">Create Post</Link>
                         <button type="button" onClick={signOut} className="outline_btn">Sign Out</button>
-                        <Link href="/post">
+                        <Link href="/profile">
                             <Image src={session?.user.image} width={32} height={32} className="rounded-full"></Image>
                         </Link>
                     </div>
